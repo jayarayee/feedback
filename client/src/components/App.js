@@ -11,7 +11,7 @@ const Landing = () => <h2>Landing</h2>;
 const App = () => {
   return (
     <BrowserRouter>
-      <div>
+      <div className="container">
         <Header />
         <Route exct={true} path="/" component={Landing} />
         <Route exct path="/surveys" component={Dashboard} />
